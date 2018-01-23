@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project( Homography )
+project( Features )
 find_package( OpenCV REQUIRED )
-add_executable( Homography homography.cpp )
-target_link_libraries( Homography ${OpenCV_LIBS} )
+add_executable( Features features.cpp )
+target_link_libraries( Features ${OpenCV_LIBS} )
