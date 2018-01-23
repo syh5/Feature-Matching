@@ -1,4 +1,4 @@
-# Feature-Matching
+# Feature-Matching Flann Based Matcher
 
 This is inspired by inbuilt functioanality in OpenCV on Flann Based Matcher. The code was written for a competition where a yellow and black caution tape needed to be detected and it's distance from the camera had to be determined. The camera was mounted to a drone and  distance is calculated knowing the height of the drone and the camera angles. This is similar to template matching but since features are rotation invariant, the tape could be detected at any angle in real-time.
 
@@ -14,3 +14,5 @@ and if everthing runs without errors then run the executable by typing:
 The output window should look something like this:
 
 ![alt text](https://github.com/syh5/Feature-Matching/blob/master/features.png)
+
+The green text is the distance in meters and the long green line on the tape in the extrapolated line. The slope and the distance is outputed on the terminal.
