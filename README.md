@@ -12,3 +12,5 @@ and if everthing runs without errors then run the executable by typing:
 - ./features testImage.jpeg
 
 The output window should look something like this:
+
+![alt text](https://github.com/syh5/Feature-Matching/blob/master/features.png)
